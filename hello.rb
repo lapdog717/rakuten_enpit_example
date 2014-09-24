@@ -1,5 +1,7 @@
 require 'sinatra'
+require 'rakuten_web_service'
 
 get '/' do
-  "Hello World"
+  "hell"
+  ENV["APPID"]
 end
