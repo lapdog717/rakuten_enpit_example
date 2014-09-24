@@ -4,6 +4,7 @@ require 'rakuten_web_service'
 #参考: https://github.com/k2works/sinatra_rakuten_api
 
 get '/' do
+  "hell"
   RakutenWebService.configuration do |c|
     c.application_id = ENV["APPID"]
     c.affiliate_id = ENV["AFID"]
