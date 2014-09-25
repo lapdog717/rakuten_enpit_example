@@ -5,12 +5,14 @@ GEM
       multipart-post (~> 1.2.0)
     faraday_middleware (0.9.1)
       faraday (>= 0.7.4, < 0.10)
+    minitest (5.4.1)
     multipart-post (1.2.0)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rake (10.3.2)
     rakuten_web_service (0.5.0)
       faraday (~> 0.8.8)
       faraday_middleware
@@ -24,6 +26,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  minitest
   rack-test
+  rake
   rakuten_web_service
   sinatra
