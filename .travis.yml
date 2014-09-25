@@ -1,8 +1,6 @@
 language: ruby
 rvm:
 - 2.1.2
-env:
-- AFID=131cef76.deb3ed6a.131cef77.7335f681 APPID=1087613418612509182
 deploy:
   provider: heroku
   api_key:
